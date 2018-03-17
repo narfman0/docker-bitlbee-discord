@@ -6,7 +6,7 @@ Discord support for bitlbee
 
 ## Usage
 
-Run BitlBee listening on port 6667 with default config and persistent local volume:
+Run bitlbee listening on port 6667 with default config and persistent local volume:
 ```
 docker run -p 6667:6667 -v $(pwd)/bitlbee:/var/lib/bitlbee narfman0/docker-bitlbee-discord -n bitlbee
 ```
